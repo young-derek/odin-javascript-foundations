@@ -10,9 +10,12 @@
 
 <body>
     <script>
-        const max = 57;
-        let actual = max - 13;
-        let percentage = actual / max;
+
+        let message = (login == 'Employee') ? 'Hello' :
+                (login == 'Director') ? 'Greetings' :
+                (login == '') ? 'No login' :
+                '';
+
     </script>
 </body>
 
